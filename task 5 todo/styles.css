@@ -10,7 +10,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  overflow: hidden; /* Prevent scrolling */
+  overflow: hidden; 
 }
 
 .container {
@@ -30,7 +30,7 @@ h1 {
   color: #000000;
   margin-bottom: 45px;
   text-align: center;
-  text-transform: uppercase; /* Add uppercase text transformation */
+  text-transform: uppercase; 
 }
 
 h2 {
@@ -139,8 +139,6 @@ button:hover {
   border-color: #007BFF;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
-
-/* Additional styles */
 
 .task-list li .task-actions button.delete {
   background: #dc3545;
